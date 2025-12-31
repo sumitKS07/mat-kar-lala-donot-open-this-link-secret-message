@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mat Kar Lala</title>
+    <style>
+        /* This centers everything on the screen */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff; /* White background */
+            font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+        }
+
+        /* Big block letter styling */
+        .message {
+            text-align: center;
+            font-size: 15vw; /* Extremely large responsive text */
+            font-weight: 900;
+            line-height: 0.8;
+            letter-spacing: -5px;
+            color: #000000; /* Solid black text */
+            text-transform: uppercase;
+        }
+
+        /* Mobile adjustment so text doesn't overflow */
+        @media (max-width: 600px) {
+            .message {
+                font-size: 20vw;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="message">
+        MAT KAR<br>LALA
+    </div>
+
+</body>
+</html>
